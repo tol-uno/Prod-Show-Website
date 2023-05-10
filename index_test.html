@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <style>
+            body {
+            padding: 10px; 
+            }
+
+            video {
+                max-width: 100%;
+            }
+
+        </style>
+
+
+    </head>
+
+    <body>
+        
+        <h3>Loading videos based on screen sizes</h3>
+
+        <video preload="auto" autoplay loop muted playsinline data-desktop-vid="https://iconaircraft.s3.amazonaws.com/ICON_Web+4.0_Loop_16x9_DRAFT190723_26sec+3700.mp4" 
+                data-mobile-vid="https://iconaircraft.s3.amazonaws.com/ICON_Web+4.0_Loop_1x1_DRAFT190723_26sec-mobile.mp4">
+        </video>
+
+            
+        <script>
+
+            //get all vids
+            var video =  document.querySelectorAll('video')
+
+            //add source to video tag
+            function addSourceToVideo(element, src) {
+                var source = document.createElement('source');
+                source.src = src;
+                source.type = 'video/mp4';
+                console.log(src);
+                element.appendChild(source);
+            }
+
+            //determine screen size and select mobile or desktop vid
+            function whichSizeVideo(element, src) {
+                var windowWidth = window.innerWidth ? window.innerWidth : $(window).width();
+                if (windowWidth > 1200 ) {
+                    addSourceToVideo( element, src.dataset.desktopVid);
+                } else {
+                    addSourceToVideo(element, src.dataset.mobileVid);
+                }
+            }
+
+            //init only if page has videos
+            function videoSize() {
+                if (video !== undefined) {
+                video.forEach(function(element, index) {
+                        whichSizeVideo(
+                            element, //element
+                            element  //src locations
+                        );	
+                    });
+                }
+            }
+            videoSize();
+        </script>
+    </body>
+</html>
