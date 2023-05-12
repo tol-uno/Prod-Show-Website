@@ -87,6 +87,8 @@ video {
     overflow: hidden;
     border-radius: 4vw;
     border: solid 2px white;
+    white-space: normal;
+
 }
 
 img {
@@ -99,10 +101,8 @@ img {
 }
 
 section {
-    /* overflow: hidden; */
     padding: 2vh 3vw 2vh 3vw;
-    /* background-color: black; */
-    border: solid 1px rgb(209, 115, 238);
+    /* border: solid 1px rgb(209, 115, 238); */
     background: linear-gradient(132deg, rgba(2,0,36,1) 0%, rgba(71,41,119,1) 100%); 
 }
 
@@ -130,5 +130,11 @@ section {
 
     navbar {
         border-radius: 1.5vh;
+    }
+
+    .projects-grid {
+        grid-template-columns: auto auto auto auto;
+        gap: 4vh 0.5vw;
+
     }
 }
