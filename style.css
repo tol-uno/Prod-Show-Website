@@ -3,7 +3,7 @@ body {
     background-color: rgb(93, 93, 210);
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4{
     font-family: Roboto, sans-serif;
     color: white;
     text-align: center;
@@ -12,7 +12,7 @@ h1, h2, h3 {
 h1 {
     font-size: 2.2em;
     font-weight: 900;
-    margin: 3vh 0 2vh 0;
+    margin: 6vh 0 2vh 0;
 }
 
 h2 {
@@ -23,6 +23,13 @@ h2 {
 }
 
 h3{
+    margin: 1vh 0 1vh 0;
+    font-size: 1em;
+    font-weight: 900;
+}
+
+h4 {
+    margin: 0 0 2vh 0;
     font-size: 0.7em;
     font-weight: 300;
 }
@@ -67,6 +74,19 @@ video {
     width: 100%;
     box-shadow: 0px 0px 8vh rgba(0, 0, 0, 0.663);
     vertical-align: middle; /* fixes the little extra line space thing */
+}
+
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 2vh 4vw;
+}
+
+.project-item {
+    overflow: hidden;
+    border-radius: 4vw;
+    border: solid 2px white;
 }
 
 img {
