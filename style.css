@@ -79,8 +79,9 @@ video {
 
 .projects-grid {
     display: grid;
-    grid-template-columns: auto auto;
-    gap: 2vh 4vw;
+    /* grid-template-columns: auto auto; */
+    grid-template-columns: repeat(2, minmax(0, 1fr)); /* https://stackoverflow.com/questions/47601564/equal-width-columns-in-css-grid */
+    gap: 2vh 3vw;
 }
 
 .project-item {
@@ -88,10 +89,13 @@ video {
     border-radius: 4vw;
     border: solid 2px white;
     white-space: normal;
-
 }
 
+
+
 img {
+    color: gray;
+    font-weight: 300;
     width: 100%;
     vertical-align: middle; /* fixes the little extra line space thing */
 }
@@ -136,5 +140,9 @@ section {
         grid-template-columns: auto auto auto auto;
         gap: 4vh 0.5vw;
 
+    }
+
+    .project-item:hover {
+        filter: blur(4px);
     }
 }

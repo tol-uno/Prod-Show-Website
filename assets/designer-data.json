@@ -1,0 +1,30 @@
+{
+  "Designers": [
+    {
+      "name": "Mason Powers",
+      "personal bio": "I hate design research",
+      "instagram": "_nomsa_",
+      "email": "masonpowers46@gmail.com",
+      "website": "masonpowers.com",
+      "project title": "Folio3D",
+      "project description": "Bringing 3D into the modern age with easy to use interfaces and other dumb shit",
+      "youtube vid url": "https://youtube.com"
+    },
+    {
+      "name": "Elit Swogurt",
+      "personal bio": "I love design research and opiods",
+      "instagram": "ellio.wip",
+      "website": "illiot.com",
+      "project title": "Souls",
+      "project description": "There are little guys under the carpet"
+    },
+    {
+      "name": "Eva Shnaiden",
+      "personal bio": "I lose everything becasue someone poked holes in my sachel",
+      "instagram": "eva.shnaiden",
+      "email": "eva@gmail.com",
+      "project title": "Magic and Motion",
+      "project description": "Sculptures about time and bowls that move"
+    }
+  ]
+}
