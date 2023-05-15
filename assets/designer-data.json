@@ -1,30 +1,80 @@
 {
   "Designers": [
     {
-      "name": "Mason Powers",
-      "personal bio": "I hate design research",
-      "instagram": "_nomsa_",
-      "email": "masonpowers46@gmail.com",
-      "website": "masonpowers.com",
-      "project title": "Folio3D",
-      "project description": "Bringing 3D into the modern age with easy to use interfaces and other dumb shit",
-      "youtube vid url": "https://youtube.com"
+      "Full Name": "Brianna Swallow",
+      "Project Title": "WanderChef",
+      "Project Summary": "Cook Anytime, Anywhere",
+      "Email": "brirose2019@gmail.com"
     },
     {
-      "name": "Elit Swogurt",
-      "personal bio": "I love design research and opiods",
-      "instagram": "ellio.wip",
-      "website": "illiot.com",
-      "project title": "Souls",
-      "project description": "There are little guys under the carpet"
+      "Full Name": "Ines West",
+      "Project Title": "MyTile",
+      "Project Summary": "Utilizing Mycelium for Interior Applications ",
+      "Project Description": "MyTile is a bio-based alternative to traditional soundproofing materials and interior wall tiles, grown from mycelium and agricultural waste. Lightweight and relatively inexpensive, the most significant advantage of this mycelium-based material is its rapid biodegradability. When compared to traditional materials, such as foams and petroleum-based soundproofing panels, mycelium-based materials can be produced at a lower cost while also minimizing environmental impact. Mycelium is just one organism that exemplifies the advantages of bringing nature into everyday life, inspiring circular design methods.",
+      "Email": "iwest2001@gmail.com",
+      "Website": "ineswest.myportoflio.com"
     },
     {
-      "name": "Eva Shnaiden",
-      "personal bio": "I lose everything becasue someone poked holes in my sachel",
-      "instagram": "eva.shnaiden",
-      "email": "eva@gmail.com",
-      "project title": "Magic and Motion",
-      "project description": "Sculptures about time and bowls that move"
+      "Full Name": "Olivia Corcoran",
+      "Project Title": "Designing Friends",
+      "Project Summary": "Using Humans' Innate Personification to Form a Relationship between Person and Product",
+      "Project Description": "Every day, products are being neglected by users because they aren’t being seen as the people they really are. As designers, it is our job to convey the personality of everyday items in order to cultivate a relationship between product and user. Designing Friends is a resource for designers to breathe life and personality into their designs.",
+      "Email": "olicorc@gmail.com",
+      "Instagram": "oli.corc ",
+      "Website": "olicorc.com",
+      "LinkedIn": "linkedin.com/in/olicorc/"
+    },
+    {
+      "Full Name": "Valeria Morales Aguayo",
+      "Project Title": "Fun-iture",
+      "Project Summary": "Making Furniture Fun!",
+      "Project Description": "Fun-iture is a collection of interactive furniture designed to promote positive self-soothing methods for children in waiting rooms and classrooms. The Blob Chair and Squish Chair come in two sizes, offering both visually and physically stimulating experiences. Stimulating behavior is an important coping mechanism for children with ASD, ADHD, and OCD. Fun-iture's unique materials and designs accommodate stimming behavior, providing a meaningful and enjoyable sensory experience that can help mitigate children’s stress responses.",
+      "Email": "valmoralesaguayo@gmail.com",
+      "Instagram": "val.morales_design",
+      "Website": "valeriamoralesaguayo.com"
+    },
+    {
+      "Full Name": "Aili Hermanson",
+      "Project Title": "Mindful Mat",
+      "Project Summary": "Unwind and Connect",
+      "Email": "ailithedesigner@gmail.com",
+      "Website": "https://ailithedesigner.myportfolio.com/"
+    },
+    {
+      "Full Name": "Mason Powers",
+      "Personal Bio": "3D Artist and Product Designer working in automotive visualization and virtual reality. Versed in animation, virtual reality, 3d modeling, web development, app development, and more. I aspire to work on projects with a large scope and impact on the world. Curiosity drives me to constantly learn new ways to communicate my ideas.",
+      "Project Title": "Folio3D",
+      "Project Summary": "Giving creators the power to show their work in 3D",
+      "Youtube Video": "https://www.youtube.com/watch/b82pmIPPO3U",
+      "Email": "masonpowers46@gmail.com",
+      "Instagram": "_nomsa_",
+      "Website": "https://masonpowers.com",
+      "LinkedIn": "https://www.linkedin.com/in/mason-powers-vt/"
+    },
+    {
+      "Full Name": "John Blume",
+      "Project Title": "Lighten Up",
+      "Project Summary": "Humorous Inhalers",
+      "Email": "johnblumedesign@gmail.com"
+    },
+    {
+      "Full Name": "Eva Shnaiden",
+      "Project Title": "Mind & Motion",
+      "Project Summary": "Creating a moment of peace, reflection, and wonder.",
+      "Project Description": "Six nested wooden bowls rise and fall at the speed of breath as you approach them. Three nested semicircle structures provide an altar-like enclosure for the experience.\r\n\r\nMind & Motion explores our interactions with time through sculpture, installation, and kinetics. This project culminated in two final products designed to provide a moment of meditation for observers.",
+      "Email": "eva.shnaiden@gmail.com",
+      "Instagram": "evashnaiden_art"
+    },
+    {
+      "Full Name": "Nancy Dauti",
+      "Project Title": "Menstrual Health Education"
+    },
+    {
+      "Full Name": "Harry Nunn",
+      "Project Title": "Fuel and Flowers",
+      "Project Summary": "Two futures seen through delivery drones",
+      "Email": "harrynunn1@gmail.com",
+      "Instagram": "harry.nunn.design"
     }
   ]
 }
