@@ -1,12 +1,14 @@
 body {
     margin: 0;
-    background-color: rgb(93, 93, 210);
+    /* background-color: rgb(93, 93, 210); */
+    background-color: #05070f;
 }
 
 h1, h2, h3, h4{
     font-family: Roboto, sans-serif;
     color: white;
     text-align: center;
+    z-index: 5;
 }
 
 h1 {
@@ -53,8 +55,13 @@ navbar {
     background-color: rgba(255, 255, 255, 0.15);
     border-radius: 1vh;
     border: solid 1.5px rgba(255, 255, 255, 0.08);
-    backdrop-filter: blur(12px);
-    box-shadow: 0 0 3vh rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 3vh rgba(0, 0, 0, 0.3);
+}
+
+navbar > a {
+    margin: 1vh 4vw 1vh 4vw; 
+    font-size: 5vw;
 }
 
 a {
@@ -67,7 +74,7 @@ a {
     filter: drop-shadow(0 0 1vh rgba(0, 0, 0, 0.3));
 
     white-space: nowrap;
-    margin: 1vh 2.2vw 1vh 2.2vw; 
+    /* margin: 1vh 2.2vw 1vh 2.2vw;  */
 }
 
 video {
@@ -79,18 +86,22 @@ video {
 
 .projects-grid {
     display: grid;
-    /* grid-template-columns: auto auto; */
     grid-template-columns: repeat(2, minmax(0, 1fr)); /* https://stackoverflow.com/questions/47601564/equal-width-columns-in-css-grid */
-    gap: 2vh 3vw;
+    gap: 3vh 5vw;
 }
 
 .project-item {
     overflow: hidden;
-    border-radius: 4vw;
-    border: solid 2px white;
+    border-radius: 2vw;
+    /* background-color: rgba(71,41,119,1); */
+    background-color: #1b1f29;
+    border: solid 2px #2a3146;
     white-space: normal;
 }
 
+.project-item > img {
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.6) ;
+}
 
 
 img {
@@ -106,8 +117,8 @@ img {
 
 section {
     padding: 2vh 3vw 2vh 3vw;
-    /* border: solid 1px rgb(209, 115, 238); */
-    background: linear-gradient(132deg, rgba(2,0,36,1) 0%, rgba(71,41,119,1) 100%); 
+    /* background: linear-gradient(132deg, rgba(2,0,36,1) 0%, rgba(71,41,119,1) 100%);  */
+    background-color: #05070f;
 }
 
 #sec-home {
