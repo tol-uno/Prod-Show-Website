@@ -47,13 +47,13 @@ async function renderProjects() {
         newProjectItem.href = "#sec-crew"; // Needs to point to correct project page.
        
         // This works just need to figure out slugs
-        // projectPageLink = "https://you" + "tube.com" + designer.name;
+        // projectPageLink = "https://you" + "tube.com" + designer["Full Name"];
         // console.log(projectPageLink);
 
         newProjectItem.innerHTML = `
-                        <img src="assets/images/${designer.name}/thumbnail.jpg" alt="project thumbnail missing">
-                        <h3>${designer["project title"]}</h3>
-                        <h4>${designer.name}</h4>`;
+                        <img src="assets/images/${designer["Full Name"]}/thumbnail.jpg" alt="project thumbnail missing">
+                        <h3>${designer["Project Title"]}</h3>
+                        <h4>${designer["Full Name"]}</h4>`;
 
         projectsGrid.appendChild(newProjectItem);
     });

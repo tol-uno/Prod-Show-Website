@@ -14,7 +14,7 @@ h1, h2, h3, h4{
 h1 {
     font-size: 2.2em;
     font-weight: 900;
-    margin: 6vh 0 2vh 0;
+    margin: 5vh 0 3vh 0;
 }
 
 h2 {
@@ -83,6 +83,16 @@ video {
     vertical-align: middle; /* fixes the little extra line space thing */
 }
 
+.insta-link-homepage {
+    display: flex;
+    align-items: center;
+}
+
+.social-icon {
+    width: 5vw;
+    margin: 0 3vw 0 3vw;
+}
+
 
 .projects-grid {
     display: grid;
@@ -139,17 +149,20 @@ section {
 }
 
 @media only screen and (min-width: 600px) { /* was: (768px for Desktop Styling. 600 is tablet) */
-    a {
+    navbar > a {
+        margin: 1vh 3vw 1vh 3vw; 
         font-size: 2vw;
     }
 
     navbar {
         border-radius: 1.5vh;
+        border: solid 2px rgba(255, 255, 255, 0.08);
+
     }
 
     .projects-grid {
-        grid-template-columns: auto auto auto auto;
-        gap: 4vh 0.5vw;
+        grid-template-columns: repeat(4, minmax(0, 1fr)); /* https://stackoverflow.com/questions/47601564/equal-width-columns-in-css-grid */
+        gap: 5vh 2vw;
 
     }
 
