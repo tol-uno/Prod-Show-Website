@@ -1,47 +1,52 @@
 body {
     margin: 0;
     /* background-color: rgb(93, 93, 210); */
-    background-color: #05070f;
+    /* background-color: #05070f; */
+    background-color: #181818;
 }
 
-h1, h2, h3, h4{
-    font-family: Roboto, sans-serif;
+h1, h2, h3, h4, h5, p {
+    font-family: futura-pt, sans-serif;
     color: white;
     text-align: center;
     z-index: 5;
 }
 
 h1 {
-    font-size: 2.2em;
-    font-weight: 900;
+    font-size: 14vw;
+    font-weight: 700;
     margin: 5vh 0 3vh 0;
 }
 
 h2 {
-    font-size: 1.5em;
-    font-weight: 300;
+    font-size: 9vw;
+    font-weight: 500;
     margin: 1vh 0 1vh 0;
-
+    text-align: left;
 }
 
 h3{
     margin: 1vh 0 1vh 0;
-    font-size: 1em;
-    font-weight: 900;
+    font-size: 4.2vw;
+    font-weight: 300;
 }
 
 h4 {
+    margin: 1vh 0 0.5vh 0;
+    font-size: 4.6vw;
+    font-weight: 700;
+}
+
+h5 { 
     margin: 0 0 2vh 0;
-    font-size: 0.7em;
+    font-size: 4.2vw;
     font-weight: 300;
 }
 
 p {
-    font-family: DM Sans, sans-serif;
-    font-size: 3vw;
-    font-weight: 400;
-    color:white;
-    text-align: center;
+    text-align: left;
+    font-size: 4.2vw;
+    font-weight: 300;
 }
 
 navbar {
@@ -49,6 +54,7 @@ navbar {
     z-index: 10;
     top: 2vh;
     left: 50%;
+
     transform: translateX(-50%);
     display: flex;
     align-items: center;
@@ -65,16 +71,15 @@ navbar > a {
 }
 
 a {
-    font-family: Roboto, sans-serif;
+    font-family: futura-pt, sans-serif;
     font-size: 4vw;
-    font-weight: 900;
+    font-weight: 700;
     text-decoration: none;
 
     color: white;
     filter: drop-shadow(0 0 1vh rgba(0, 0, 0, 0.3));
 
     white-space: nowrap;
-    /* margin: 1vh 2.2vw 1vh 2.2vw;  */
 }
 
 video {
@@ -93,19 +98,17 @@ video {
     margin: 0 3vw 0 3vw;
 }
 
-
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr)); /* https://stackoverflow.com/questions/47601564/equal-width-columns-in-css-grid */
-    gap: 3vh 5vw;
+    gap: 2vh 3vw;
 }
 
 .project-item {
     overflow: hidden;
-    border-radius: 2vw;
-    /* background-color: rgba(71,41,119,1); */
-    background-color: #1b1f29;
-    border: solid 2px #2a3146;
+    /* border-radius: 1vw; */
+    /* background-color: #1b1f29; */
+    /* border: solid 2px #2a3146; */
     white-space: normal;
 }
 
@@ -116,48 +119,98 @@ video {
 
 img {
     color: gray;
-    font-weight: 300;
+    font-weight: 400;
     width: 100%;
     vertical-align: middle; /* fixes the little extra line space thing */
 }
 
-#img-gallery {
-    margin-bottom: 10vh;
+
+#show-info-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#show-info-text {
+    margin-left: 8vw;
+    padding-left: 4vw;
+    border-left: solid 3px white;
+}
+
+#show-info-text > h3 {
+    text-align: left;
+}
+
+
+#show-info-img {
+    margin: 4vh 0 5vh 0;
 }
 
 section {
     padding: 2vh 3vw 2vh 3vw;
     /* background: linear-gradient(132deg, rgba(2,0,36,1) 0%, rgba(71,41,119,1) 100%);  */
-    background-color: #05070f;
+    /* background-color: #05070f; */
 }
 
 #sec-home {
     padding: 0;
 }
 
-#sec-projects {
-}
 
-#sec-crew {
-}
-
-#sec-info {
-}
 
 
 @media only screen and (min-width: 600px) { /* Tablet Styling */
 }
 
 @media only screen and (min-width: 600px) { /* was: (768px for Desktop Styling. 600 is tablet) */
+    section {
+        padding: 2vh 15vw 2vh 15vw;
+        /* background: linear-gradient(132deg, rgba(2,0,36,1) 0%, rgba(71,41,119,1) 100%);  */
+        /* background-color: #05070f; */
+    }
+
     navbar > a {
-        margin: 1vh 3vw 1vh 3vw; 
-        font-size: 2vw;
+        margin: 0.8vh 3vw 0.8vh 3vw; 
+        font-size: 1.8vw;
     }
 
     navbar {
-        border-radius: 1.5vh;
+        border-radius: 1.2vh;
         border: solid 2px rgba(255, 255, 255, 0.08);
+    }
 
+    h1 {
+        font-size: 6vw;
+        text-align: left;
+    }
+    
+    h2 {
+        font-size: 4vw;
+    }
+    
+    h3{
+        font-size: 2vw;
+    }
+    
+    h4 {
+        font-size: 1.6vw;
+    }
+    
+    h5 { 
+        font-size: 1.2vw;
+    }
+    
+    p {
+        font-size: 1.2vw;
+    }
+
+    a {
+        font-size: 2vw;
+        font-weight: 700;
+    
+        color: white;
+        filter: drop-shadow(0 0 1vh rgba(0, 0, 0, 0.3));
+    
+        white-space: nowrap;
     }
 
     .projects-grid {
@@ -167,6 +220,23 @@ section {
     }
 
     .project-item:hover {
-        filter: blur(4px);
     }
+
+    #show-info-container {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 10vh;
+    }
+
+    #show-info-text {
+        margin-left: 0vw;
+        width: 100%;
+        border-left: solid 3px white;
+    }
+
+    #show-info-img {
+        margin: 0vh 0 0vh 4vw;
+    }
+
+
 }

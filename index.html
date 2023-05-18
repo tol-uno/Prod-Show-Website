@@ -7,10 +7,9 @@
 		<meta name="description" content="2023 Drexel University Product Design Senior Show Website" />
 
 		<title>Product Design Senior Show</title>
-		<link rel="icon" type="image/x-icon" href="favicon.ico">
+		<link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
         <link rel="stylesheet" type="text/css" href="style.css" />
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,900">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=DM Sans:400,700">
+        <link rel="stylesheet" href="https://use.typekit.net/pbk8idc.css"> <!-- https://fonts.adobe.com/my_fonts#web_projects-section -->
     </head>
 
     <body>
@@ -21,7 +20,7 @@
             <a href="#sec-info">SHOW</a>
         </navbar>
 
-        <section id="sec-home">
+        <section id="sec-home" name="sec-home">
             <video preload="auto" autoplay loop muted playsinline 
                 data-desktop-vid="assets/videos/Prod_Diffraction_Landscape.mp4" 
                 data-mobile-vid="assets/videos/Prod_Diffraction_Portrait.mp4">
@@ -29,46 +28,56 @@
         </section>
 
         <section>
-            <h3>Drexel University 2023 Product Design Senior Thesis Showcase</h3>
+            <h3>Drexel University Product Design<br>Senior Thesis Showcase</h3>
+            
+            <div class="insta-link-homepage">
+                <img class="social-icon" src="assets/images/Drexel_Logo_Simple.png">
+                <a href="https://drexel.edu/westphal/academics/undergraduate/PROD/" target="_blank">2023 Product Design<br>Senior Showcase</a>
+            </div>
+
             <div class="insta-link-homepage">
                 <img class="social-icon" src="assets/images/logo-insta.png">
-                <a href="https://www.instagram.com/drexelprodseniors/">Follow us on Instagram @DrexelProdSeniors</a>
+                <a href="https://www.instagram.com/drexelprodseniors/" target="_blank">Follow us on Instagram @DrexelProdSeniors</a>
             </div>
         </section>
 
-        <section id="sec-projects">
+        <section id="sec-projects" name="sec-projects">
             <h1>PROJECTS</h1>
             <div class="projects-grid">
                 
                 <!-- <a class="project-item" href="#sec-crew">
                     <img src="assets/images/Aili_Proj_Thumbnail.jpg" alt="project thumbnail">
-                    <h3>Project Name</h3>
-                    <h4>Designer Name</h4>
+                    <h4>Project Name</h4>
+                    <h4>Designer Name</h5>
                 </a> -->
 
                 
             </div>
         </section>
-
-        <!-- <section id="sec-crew">
-            <h1>THE CREW</h1>
-            <h2>coming soon</h2>
-            <img src="assets/images/test_image.jpeg" alt="scan image test">
-        </section> -->
         
-        <section id="sec-info">
+        <section id="sec-info" name="sec-info">
             <h1>SHOW INFO</h1>
-            <h2>Pearlstein Gallery</h2>
-            <h3>3401 Filbert St, Philadelphia, PA 19104</h3>
-            <p>
-                Tues, June 13 | 12PM - 6PM<br>
-                Wed, June 14 | 5PM - 8PM (OPENING RECEPTION)<br>
-                Thurs, June 15 | 12PM - 6PM<br>
-                Fri, June 16 | 12PM - 6PM<br>
-            </p>
+            <div id="show-info-container">
+                <div id="show-info-text">
+                    <h2>Pearlstein Gallery</h2>
+                    <h3>3401 Filbert St, Philadelphia, PA 19104</h3>
+                    <p>
+                        Tues, June 13 | 12PM - 6PM<br>
+                        Wed, June 14 | 5PM - 8PM<br>
+                        Thurs, June 15 | 12PM - 6PM<br>
+                        Fri, June 16 | 12PM - 6PM<br>
+                        <br>
+                        Reception Party Wednesday Night
+                    </p>
+                </div>
+                <img id="show-info-img" src="assets/images/Pearlstein_Gallery.jpg" alt="Exterior view of Drexel's Pearlstein Gallery">
+            </div>
 
-            <img id="img-gallery" src="assets/images/Pearlstein_Gallery.jpg" alt="Exterior view of Drexel's Pearlstein Gallery">
         </section>
+
+        <!-- <section id="sec-sponsors" name="sec-sponsors">
+            <h1>SPONSORS</h1>
+        </section> -->
 
         <script src="script.js"></script>
 

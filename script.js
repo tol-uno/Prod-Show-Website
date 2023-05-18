@@ -1,24 +1,17 @@
-/*
-
-JSON Data for each project and designer
-    Full Name
-    Personal Bio
-    Instagram
-    Email
-    Website
-    Project Title
-    Project Description
-    Project Youtube Video URL
 
 
-Assets in individual folders (EACH IMAGE MUST BE UNDER 250KB)
-    Headshot Image
-    Thumbnail Image (512 x 512)
-    Project Hero Image
-    Project Suplement Image 1
-    Project Suplement Image 2
+// COOL TEMPLATING FUNCTION. NOT NEEDED THOUGH
 
-*/
+// async function getTemplatedHTML() {
+//     fetch("test.html")
+//         .then(response => {
+//             return response.text()
+//         })
+//         .then(data => {
+//             document.querySelector(".include-test").innerHTML = data;
+//         });
+// }
+
 
 
 
@@ -44,16 +37,13 @@ async function renderProjects() {
 
         let newProjectItem = document.createElement("a");
         newProjectItem.classList.add("project-item");
-        newProjectItem.href = "#sec-crew"; // Needs to point to correct project page.
+        newProjectItem.href = `project.html?designer=${designer["Full Name"]}`; // Needs to point to correct project page.
        
-        // This works just need to figure out slugs
-        // projectPageLink = "https://you" + "tube.com" + designer["Full Name"];
-        // console.log(projectPageLink);
-
+        
         newProjectItem.innerHTML = `
                         <img src="assets/images/${designer["Full Name"]}/thumbnail.jpg" alt="project thumbnail missing">
-                        <h3>${designer["Project Title"]}</h3>
-                        <h4>${designer["Full Name"]}</h4>`;
+                        <h4>${designer["Project Title"]}</h4>
+                        <h5>${designer["Full Name"]}</h5>`;
 
         projectsGrid.appendChild(newProjectItem);
     });

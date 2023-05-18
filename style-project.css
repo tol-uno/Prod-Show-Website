@@ -1,0 +1,61 @@
+section {
+    background-color: white;
+}
+
+navbar {
+    position: fixed;
+    right: 3vw;
+    width: 60px;
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 1vh;
+    border: solid 2px rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 3vh rgba(0, 0, 0, 0.3);
+}
+
+h1, h2, h3, h4, p, a{
+    font-family: futura-pt, sans-serif;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+p {
+    margin: 1vh 0 1vh 0;
+    font-size: 4.5vw;
+    font-weight: 300;
+}
+
+
+#project-title {
+    margin: 2vh 0 0 0;
+    line-height: 1;
+}
+
+#designer {
+    font-weight: 500;
+    color: black;
+    font-size: 5.5vw;
+}
+
+img {
+    margin-top: 2vh;
+    color: gray;
+    font-weight: 300;
+    width: 100%;
+    vertical-align: middle; /* fixes the little extra line space thing */
+
+}
+
+.bio-container {
+    display: flex;
+}
+
+
+@media only screen and (min-width: 600px) { /* Tablet Styling */
+}
+
+@media only screen and (min-width: 600px) { /* was: (768px for Desktop Styling. 600 is tablet) */
+}
