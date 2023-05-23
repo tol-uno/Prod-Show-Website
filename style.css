@@ -88,14 +88,34 @@ video {
     vertical-align: middle; /* fixes the little extra line space thing */
 }
 
-.insta-link-homepage {
+.info-container {
+    display: flex;
+    flex-direction: column;
+    /* border:2px solid green; */
+}
+
+.homepage-links-container {
     display: flex;
     align-items: center;
+    margin: 4vh auto auto auto;
+    /* margin-top: 4vh; */
+
+    /* border: 2px solid blue; */
 }
 
 .social-icon {
-    width: 5vw;
-    margin: 0 3vw 0 3vw;
+    width: 10vw;
+    margin: 0 4vw 0 4vw;
+}
+
+.social-text {
+    font-size: 6vw;
+    font-weight: 500;
+}
+
+hr {
+    color: white;
+    margin: 3vh 12vw 0 12vw;
 }
 
 .projects-grid {
@@ -106,9 +126,6 @@ video {
 
 .project-item {
     overflow: hidden;
-    /* border-radius: 1vw; */
-    /* background-color: #1b1f29; */
-    /* border: solid 2px #2a3146; */
     white-space: normal;
 }
 
@@ -116,18 +133,11 @@ video {
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.6) ;
 }
 
-
 img {
     color: gray;
     font-weight: 400;
     width: 100%;
     vertical-align: middle; /* fixes the little extra line space thing */
-}
-
-
-#show-info-container {
-    display: flex;
-    flex-direction: column;
 }
 
 #show-info-text {
@@ -164,8 +174,6 @@ section {
 @media only screen and (min-width: 600px) { /* was: (768px for Desktop Styling. 600 is tablet) */
     section {
         padding: 2vh 15vw 2vh 15vw;
-        /* background: linear-gradient(132deg, rgba(2,0,36,1) 0%, rgba(71,41,119,1) 100%);  */
-        /* background-color: #05070f; */
     }
 
     navbar > a {
@@ -216,16 +224,29 @@ section {
     .projects-grid {
         grid-template-columns: repeat(4, minmax(0, 1fr)); /* https://stackoverflow.com/questions/47601564/equal-width-columns-in-css-grid */
         gap: 5vh 2vw;
-
     }
 
     .project-item:hover {
     }
 
-    #show-info-container {
-        display: flex;
+    .info-container {
         flex-direction: row;
-        margin-bottom: 10vh;
+        margin-bottom: 3vh;
+    }
+
+    .homepage-links-container {
+        align-items: center;
+        margin-top: 4vh;
+        padding-left: 0%;
+    }
+
+    .social-icon {
+        width: 5vw;
+        margin: 0 2vw 0 2vw;
+    }
+    
+    .social-text {
+        font-size: 2vw;
     }
 
     #show-info-text {
