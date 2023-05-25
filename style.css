@@ -64,6 +64,8 @@ navbar {
     border-radius: 1vh;
     border: solid 1.5px rgba(255, 255, 255, 0.08);
     backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+
     box-shadow: 0 0 3vh rgba(0, 0, 0, 0.3);
 
 
