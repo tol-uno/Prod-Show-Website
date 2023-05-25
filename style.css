@@ -55,6 +55,8 @@ navbar {
     top: 2vh;
     left: 50%;
 
+    /* NEED a fix for blur not working on safari. https://stackoverflow.com/questions/70138527/css-filter-blur-not-working-properly-on-safari */
+
     transform: translateX(-50%);
     display: flex;
     align-items: center;
@@ -63,6 +65,8 @@ navbar {
     border: solid 1.5px rgba(255, 255, 255, 0.08);
     backdrop-filter: blur(10px);
     box-shadow: 0 0 3vh rgba(0, 0, 0, 0.3);
+
+
 }
 
 navbar > a {
@@ -153,6 +157,7 @@ img {
 
 #show-info-img {
     margin: 4vh 0 5vh 0;
+    max-width: 100%;
 }
 
 section {
@@ -246,7 +251,7 @@ section {
     }
     
     .social-text {
-        font-size: 2vw;
+        font-size: 1.5vw;
     }
 
     #show-info-text {
@@ -257,6 +262,7 @@ section {
 
     #show-info-img {
         margin: 0vh 0 0vh 4vw;
+
     }
 
 
