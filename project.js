@@ -48,6 +48,10 @@ async function renderProjectPage() {
     document.querySelector("#images-container").innerHTML = `
         <img src="assets/images/${designerObject["Full Name"]}/image2.jpg" alt="image 2">
         <img src="assets/images/${designerObject["Full Name"]}/image3.jpg" alt="image 3">
+        <img src="assets/images/${designerObject["Full Name"]}/image4.jpg" alt="image 4">
+        <img src="assets/images/${designerObject["Full Name"]}/image5.jpg" alt="image 5">
+        <img src="assets/images/${designerObject["Full Name"]}/image6.jpg" alt="image 6">
+
     `;
 
     document.querySelector("#designer-name").innerHTML = designerObject["Full Name"];

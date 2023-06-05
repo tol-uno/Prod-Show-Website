@@ -2,12 +2,17 @@
   "Designers": [
     {
       "Full Name": "Brianna Swallow",
+      "Personal Bio": "Hello! I'm Brianna, a problem-finder and solver with too many interests and too little time. From cool, little things to crazy, massive projects, I love challenging what's feasible for maximum enjoyment. It’s a goal of mine to learn every fabrication technique I can, even if it’s just to make tasty treats!",
       "Project Title": "WanderChef",
       "Project Summary": "Cook Anytime, Anywhere",
-      "Email": "brirose2019@gmail.com"
+      "Project Description": "For those who are always out of the house, who like and want to cook more, and who just hate leftovers, WanderChef makes it easy to cook on the go. This chargeable, self-heating pan is a chef’s essential toolkit and is small enough to pack in your lunchbox with all your favorite ingredients. It’s easy to clean too, so you can focus on enjoying your quick meals and a love of cooking!",
+      "Email": "brirose2019@gmail.com",
+      "Instagram": "brianna_swallow",
+      "LinkedIn": "https://www.linkedin.com/in/brianna-swallow/"
     },
     {
       "Full Name": "Ines West",
+      "Personal Bio": "As a designer and individual, I strive to create responsible and thorough designs through a holistic approach that keeps the user in mind from start to finish. I am constantly drawing inspiration from nature, using it as inspiration for design processes and material choices. \r\n",
       "Project Title": "MyTile",
       "Project Summary": "Utilizing Mycelium for Interior Applications ",
       "Project Description": "MyTile is a bio-based alternative to traditional soundproofing materials and interior wall tiles, grown from mycelium and agricultural waste. Lightweight and relatively inexpensive, the most significant advantage of this mycelium-based material is its rapid biodegradability. When compared to traditional materials, such as foams and petroleum-based soundproofing panels, mycelium-based materials can be produced at a lower cost while also minimizing environmental impact. Mycelium is just one organism that exemplifies the advantages of bringing nature into everyday life, inspiring circular design methods.",
@@ -15,10 +20,12 @@
       "Website": "ineswest.myportoflio.com"
     },
     {
-      "Full Name": "Olivia Corcoran",
+      "Full Name": "OLICORC",
+      "Personal Bio": "I am Olivia Corcoran. With every environment I’m in, I notice who and what surrounds me and take note of the feelings they provoke. I then attempt to emulate those characteristics through a variety of media. As a designer, I am OLICORC.",
       "Project Title": "Designing Friends",
-      "Project Summary": "Using Humans' Innate Personification to Form a Relationship between Person and Product",
-      "Project Description": "Every day, products are being neglected by users because they aren’t being seen as the people they really are. As designers, it is our job to convey the personality of everyday items in order to cultivate a relationship between product and user. Designing Friends is a resource for designers to breathe life and personality into their designs.",
+      "Project Summary": "Forming Relationships between Person and Product",
+      "Project Description": "\tAs designers, it is our job to convey the personality of everyday items in order to cultivate a relationship between product and user. Designing Friends is a field guide for designers to breathe life and personality into their designs. This results in users seeing their products as the people they really are.\r\n\tDesigning Friends discusses shapes and forms in terms of five broad personality traits. These spectrums of openness, conscientiousness, extraversion, agreeableness, and neuroticism envelop every facet of our beings, including the designs we interact with daily.",
+      "Youtube Video": "https://youtu.be/R6jS7kD2do0 ",
       "Email": "olicorc@gmail.com",
       "Instagram": "oli.corc ",
       "Website": "olicorc.com",
@@ -26,56 +33,171 @@
     },
     {
       "Full Name": "Valeria Morales Aguayo",
+      "Personal Bio": "Hello! I'm Valeria Morales, a passionate designer who embraces constraints as opportunities for innovative solutions. I believe that well-designed products have the power to positively impact lives by transforming everyday problems into unique and rewarding experiences.",
       "Project Title": "Fun-iture",
       "Project Summary": "Making Furniture Fun!",
-      "Project Description": "Fun-iture is a collection of interactive furniture designed to promote positive self-soothing methods for children in waiting rooms and classrooms. The Blob Chair and Squish Chair come in two sizes, offering both visually and physically stimulating experiences. Stimulating behavior is an important coping mechanism for children with ASD, ADHD, and OCD. Fun-iture's unique materials and designs accommodate stimming behavior, providing a meaningful and enjoyable sensory experience that can help mitigate children’s stress responses.",
+      "Project Description": "un-iture is a collection of waiting room furniture designed to promote positive self-soothing through stimming and distraction. It addresses the lack of attention to design’s impact on stress in waiting spaces for children. The collection includes the Blob Chair and Squish Chair, offering interactive, sensory experiences. Fun-iture supports stimming, a coping mechanism for children with Autism Spectrum Disorder, ADHD, or anxiety, reducing stigma. By providing a safe and socially acceptable way for children to stim, Fun-iture fosters a more inclusive environment. It creates a comfortable and positive experience for children, parents, and healthcare workers, enhancing the overall well-being of everyone involved.",
       "Email": "valmoralesaguayo@gmail.com",
       "Instagram": "val.morales_design",
-      "Website": "valeriamoralesaguayo.com"
+      "Website": "https://valeriamoralesaguayo.com\r\n",
+      "Second Website": "https://fun-iture.com",
+      "LinkedIn": "https://www.linkedin.com/in/valeria-morales-157b65216/"
     },
     {
       "Full Name": "Aili Hermanson",
+      "Personal Bio": "My name is Aili, and from my life experiences I have learned how to navigate uncertainsituations through stepping out of my comfort zone and discovering what fuels my soul. As a designer, I value empathizing with other people’s confusion, and I strive to influence solutions that bring clarity to their lives.",
       "Project Title": "Mindful Mat",
       "Project Summary": "Unwind and Connect",
+      "Project Description": "My product is an interactive digital yoga mat, Mindful Mat, that works along with an application to encourage families to integrate mindfulness into their life. I saw an opportunity to integrate mindfulness into my user’s lives because bedtime can be hard for both parents and children. Mindful Mat along with the Mindful application guides families through short, but important experiences that include both meditation and yoga sessions. The iPad is used in the experience to play calming sounds and help guide the user into the correct yoga positions. The digital yoga mat accommodates calming animations throughout the entire experience.",
       "Email": "ailithedesigner@gmail.com",
-      "Website": "https://ailithedesigner.myportfolio.com/"
+      "Instagram": "ailihermanson",
+      "Website": "https://ailithedesigner.myportfolio.com/",
+      "LinkedIn": "https://www.linkedin.com/in/ailih/"
     },
     {
       "Full Name": "Mason Powers",
-      "Personal Bio": "3D Artist and Product Designer working in automotive visualization and virtual reality. Versed in animation, virtual reality, 3d modeling, web development, app development, and more. I aspire to work on projects with a large scope and impact on the world. Curiosity drives me to constantly learn new ways to communicate my ideas.",
+      "Personal Bio": "Hello! I'm a 3D Artist and Product Designer working in tech and automotive visualization. I'm versed in animation, virtual reality, 3d modeling, web development, app development, and more. I aspire to work on projects with a large scope and impact on the world. I absolutly love learning new ways to communicate my ideas.",
       "Project Title": "Folio3D",
       "Project Summary": "Giving creators the power to show their work in 3D",
-      "Project Description": "Six nested wooden bowls rise and fall at the speed of breath as you approach them. Three nested semicircle structures provide an altar-like enclosure for the experience.\r\n\r\nMind & Motion explores our interactions with time through sculpture, installation, and kinetics. This project culminated in two final products designed to provide a moment of meditation for observers.",
+      "Project Description": "Folio3D allows creatives to showcase their work in an online 3D environment. Imagine a WIX or Squarespace, but instead of building 2D portfolio websites, you’re constructing immersive worlds. Utilize templates and artificial intelligence to craft a personalized space for displaying your products, architecture, paintings, sculptures, music, UX design, and more. 3D media emphasizes scale, offers informative interactions, and leads to greater user engagement (which means more eyes on your work). Folio3D allows anyone to build a captivating virtual portfolio without a single line of code. ",
       "Youtube Video": "https://www.youtube.com/watch/b82pmIPPO3U",
       "Email": "masonpowers46@gmail.com",
       "Instagram": "_nomsa_",
       "Website": "https://masonpowers.com",
+      "Second Website": "https://folio3d.com",
       "LinkedIn": "https://www.linkedin.com/in/mason-powers-vt/"
     },
     {
       "Full Name": "John Blume",
+      "Personal Bio": "Hi, I'm John. I am a thinker-maker who likes to incorporate fun into the function of my designs. I'm passionate about making things and bringing them into real space, whether that's by getting dirty cutting steel and pouring concrete, or by taking an idea from sketch to 3d model to 3d print and finished beyond that. I feel that if you can add fun to something, then you should.\r\n",
       "Project Title": "Lighten Up",
       "Project Summary": "Humorous Inhalers",
+      "Project Description": "Lighten Up is a series of humorous inhalers aimed at reducing the stigma around using and carrying an inhaler. Adding humor to inhalers through sound and interaction will make middle school students more comfortable about having an inhaler and using it. \r\nThe Harmonica Inhaler shown here has a harmonica in the mouthpiece so it makes a sound when you inhale, a fun break from the expected sound or lack thereof from an inhaler. It also has a cap and plunger meant to emulate the valves on a trumpet. \r\n",
+      "Youtube Video": "https://youtu.be/Xnz5IlRiymQ",
       "Email": "johnblumedesign@gmail.com"
     },
     {
       "Full Name": "Eva Shnaiden",
+      "Personal Bio": "Hi, my name is Eva! I believe exceptional design can bring magic and wonder to everyday experiences. My goal is to craft and enhance ordinary moments, imbuing them with an essence of elegance. My creative endeavors are fueled by curiosity and a passion for the art of creation.",
       "Project Title": "Mind & Motion",
-      "Project Summary": "Creating a moment of peace, reflection, and wonder.",
-      "Project Description": "Six nested wooden bowls rise and fall at the speed of breath as you approach them. Three nested semicircle structures provide an altar-like enclosure for the experience.\r\n\r\nMind & Motion explores our interactions with time through sculpture, installation, and kinetics. This project culminated in two final products designed to provide a moment of meditation for observers.",
+      "Project Summary": "Creating a moment of peace, reflection, and wonder",
+      "Project Description": "Six nested forms sit still\r\nuntil you approach them.\r\nThey start to rise and fall, \r\nat the speed of breath.\r\nThree tall curved screens\r\nsurround you and the sculpture.\r\n\r\nMind & Motion explores our interactions with time through sculpture, installation, and kinetics. This endeavor resulted in the creation of two products aimed at offering a moment of meditation for onlookers.",
       "Email": "eva.shnaiden@gmail.com",
-      "Instagram": "evashnaiden_art"
+      "Instagram": "evashnaiden_art",
+      "LinkedIn": "https://www.linkedin.com/in/eva-shnaiden/"
     },
     {
       "Full Name": "Nancy Dauti",
-      "Project Title": "Menstrual Health Education"
+      "Personal Bio": "\r\nHi, I’m Nancy and I find joy in hands-on work and connecting with people. With a unique perspective and fueled by curiosity about how things work I approach problem-solving holistically, recognizing the interconnectedness of all things. Driven to make a positive impact, I tackle design challenges and advocate for social progress.\r\n",
+      "Project Title": "Periodically Informed",
+      "Project Summary": "Changing the way we teach, understand, and accomodate our menstrual health.",
+      "Project Description": "Periodically Informed is a resource, tool, and framework to assist in the destigmatizing and re-education of the menstrual cycle. It supports individuals in making informed choices, provides tools to better communcate their issues and provides resources to help jumpstart conversation and change policy around menstrual health. It advocates for the recognizing of menstrual conditions as disabling and helps organizations and individuals fight for positive change to accomodate users menstrual cycles.",
+      "Email": "dautinancy@gmail.com",
+      "Instagram": "nancycantc",
+      "LinkedIn": "https://www.linkedin.com/in/nancy-dauti-251237217/"
     },
     {
       "Full Name": "Harry Nunn",
+      "Personal Bio": "Hi there, I'm Harry! In my time as a designer I've always loved the digital, creating a model and bringing it into the real world is what drives me. I love making bright colorful creations that inspire visceral emotion, and telling stories through use of material and form. ",
       "Project Title": "Fuel and Flowers",
-      "Project Summary": "Two futures seen through delivery drones",
+      "Project Summary": "future timelines seen through speculative objects",
+      "Project Description": "Fuel and Flowers is all about two \r\ntimelines, based around the items each of the two drones from the timelines deliver. \r\nThe world of Fuel is characterized as a \r\ndystopic world where we invested in \r\nnonrenewables above all else. \r\nWhile the world of Flowers concerns itself heavily with environmentalism, and represents investment into it. \r\nThe work acts as a speculative design project, and an aesthetic study. It’s made in the hopes of reminding us that right now is a branching point that can lead to many futures, and that its our collective action that create these worlds. ",
       "Email": "harrynunn1@gmail.com",
-      "Instagram": "harry.nunn.design"
+      "Instagram": "harry.nunn.design",
+      "LinkedIn": "https://www.linkedin.com/in/harry-nunn-709980169/"
+    },
+    {
+      "Full Name": "Sofia Avila",
+      "Personal Bio": "As long as I could remember I've admired beauty and how it appeals to others. My goal is to create products  and experiences that instantly attract an audience. I'm passionate about immersive design, retail, and aesthetics. I not only aspire to design beautiful objects, but also environments that captivate and engage people.",
+      "Project Title": "Sojourn",
+      "Project Summary": "indulge your senses",
+      "Project Description": "Sojourn is a luxury perfume brand store that aims to provide an immersive pop-up store concept experience. Its signature line is a collection of four “Gem” perfumes. Sojourn integrates all five senses and offers these perfumes as its main product. Each Gem has its own scent and corresponding color to reach a new level of synesthesia. It’s not just a perfume store, but a multi-sensory experience. Sojourn is where immersion meets retail like never before.",
+      "Email": "sna8321@gmail.com",
+      "Instagram": "art_by_sofia.a",
+      "Website": "sofiaavila.myportfolio.com",
+      "LinkedIn": "https://www.linkedin.com/in/sofia-avila-535298193/"
+    },
+    {
+      "Full Name": "Shakthi Elangovan",
+      "Personal Bio": "I believe my purpose is to create and inspire. I find myself in the realm between artist and designer, constantly striving to have meaning in what I create. I look to have an impact and create things that individuals can emotionally connect with.",
+      "Project Title": "What If?",
+      "Email": "artbyshakthi@gmail.com",
+      "Instagram": "artbyshakthi",
+      "Website": "byshakthi.com"
+    },
+    {
+      "Full Name": "Lera Nasedkina",
+      "Personal Bio": "Hi! I’m Lera. I am a designer passionate about giving everything a personality and sharing a bit of my own along the way. I went into product design because I love sketching and creating new things, and I am most excited about vehicle- and creature-related concept design. Outside of design, I am also an artist, a car enthusiast, a competitive swimmer, and just an ever-curious person.",
+      "Project Title": "CARS ARE BORING",
+      "Project Summary": "Alternative automotive exteriors",
+      "Project Description": "Our modern daily vehicles look extremely alike: shapes, colors, materials, and features all blend into one immense achromatic mass on the roads. Why do our current cars look the way they do? CARS ARE BORING is all about exploring and developing the exterior design of daily vehicles. With this project, I suggest alternative designs for car owners and enthusiasts who like to stand out and prefer owning and buying new cars. I am designing for people with a strong desire to see a bigger variety in colors, shapes, and other visual features that affect the exteriors of our vehicles. ",
+      "Email": "vnasedki@gmail.com",
+      "Instagram": "lera.does",
+      "LinkedIn": "https://www.linkedin.com/in/leranase/"
+    },
+    {
+      "Full Name": "Jackson Peden",
+      "Personal Bio": "To me design is a tool for sharing ideas. Ideas build upon each other to create new concepts, forms, systems and much more. My goal is to create ways to share ideas and creativity through design. In the future I would love to run my own design firm and work on a variety of different types of projects.",
+      "Project Title": "The Edge",
+      "Project Summary": "The Edge is an elevated gaming experience powered by genereative AI",
+      "Project Description": "The Edge is an elevated gaming experience powered by generative AI. Two players battle it out by drawing ways to fight each other and watch their ideas come to life with AI. AI has become a powerful tool, amplifying people’s creative visions without the need for developed skills. The Edge allows gamers to express themselves and demonstrate their creativity in a mixed reality gaming experience with multiple audience interactions."
+    },
+    {
+      "Full Name": "Meg Smith",
+      "Personal Bio": "Hey there! I’m Meg Smith, a designer with a focus on innovation, experimentation, and psychology. My design approach is rooted in conceptual thinking, metaphors, and holistic perspectives. With an innate ability to instigate change and disruption, I passionately tackle challenging subjects that push conventionality and ignite fresh perspectives.",
+      "Project Title": "DisgUSt",
+      "Project Summary": "Redefining boundaries through disgust-infused design",
+      "Project Description": "We are too comfortable. Society needs a new way to connect with one another, but confined within our safe haven of familiarity and comfortability, there is no room to challenge how we act. Disgust is the only universal emotion understood across language and cultural barriers. Inserting disgust as a catalyst into communal interactive experiences prompts curiosity, summons awareness, and coaxes empathy from reflection. DisgustUS.design acts as a grassroots movement focused on disgust’s untapped design potential to provide enticing, impactful experiences.\r\n\r\nDisgustUs.design is a movement.\r\n                                   a system.\r\n                                   a resource.\r\n                                   a (personal) narrative.",
+      "Email": "meg@gemmostudio.com",
+      "Instagram": "gemmo.studio",
+      "Website": "gemmostudio.com",
+      "LinkedIn": "www.linkedin.com/in/megmsmith"
+    },
+    {
+      "Full Name": "Elliott Swigert",
+      "Personal Bio": "There are moments throughout our day in which joy tugs on the soul so tight that it pushes us out of our daily lives, and we cannot help but smile. As a designer, I have made it my purpose to grant more of these moments into the everyday and to bring fulfillment through sparking joy. ",
+      "Project Title": "Souls",
+      "Project Summary": "enhancing rituals of joy.",
+      "Project Description": "In a distant dimension, tethered between reality and pure belief lies the fabled universE. In this dimension there are objects embued with souls, preaching the virtues of play, connection, self-expression, and empathy. Acompany an explorer journey through and uncover the secrets of universE, pursuing his mission of understanding what a joyful life is.",
+      "Email": "elliottswigert@gmail.com",
+      "Instagram": "w.i.p.elliott",
+      "Website": "universelliott.myportfolio.com",
+      "LinkedIn": "https://www.linkedin.com/in/elliott-swigert-723991151/"
+    },
+    {
+      "Full Name": "Krishna Suri",
+      "Personal Bio": "Growing up, I have seen wonder from different cultures and perspectives. My experiences and passion to connect with users, inform the way I design. I enjoy learning from the user as each project is vastly different. Sustainability and user experience drive my work to help others. ",
+      "Project Title": "Greener Gig",
+      "Project Summary": "sustainably enhancing concert experiences",
+      "Project Description": "There is a duality between waste and wonder. Greener Gig is a multi-reality concert that can be viewed in-person or virtually. By utilizing augmented reality, it eliminates the need for physical sets, Greener Gig will cut down carbon emissions and financial costs. Delivered in sustainable packaging, the AR glasses and cover enable a personalised experience. Users are able to adjust the amount of visuals and can add captions for lyrics. The glasses record the entire experience, combining living in the moment and capturing the wonder.",
+      "Email": "krishnasuri14@gmail.com",
+      "Instagram": "k.suri_design",
+      "LinkedIn": "https://www.linkedin.com/in/krishna-suri-168271217"
+    },
+    {
+      "Full Name": "Jack Karbowski",
+      "Personal Bio": "Building things has always been a part of my life. Since I was a kid I was always pulling my toys apart and fixing them or making improvements. I have always wanted to create a product that would benefit its users. One day I hope to open my own studio so I can share my creativity with everyone.",
+      "Project Title": "COZE",
+      "Project Summary": "Your personal desktop gaming space.",
+      "Project Description": "COZE transcends limitations, easily fitting onto any desk with its adjustable sides. As you enter this space, the curtains glide along curved rails, effectively blocking out peripheral distractions and ensuring uninterrupted focus. Beyond its function as a gaming haven, COZE offers an escape for those yearning for their own dedicated gaming room. With the combination of RGB lights and foam soundproofing, COZE elevates your gaming experience, transforming any environment into an oasis of exhilaration. Embrace the limitless possibilities that COZE brings to your gaming sanctuary. ",
+      "Email": "jackkarbowski7@gmail.com",
+      "Instagram": "Jack_Karbowski_Design",
+      "Website": "https://jackkarbowski7.myportfolio.com/",
+      "LinkedIn": "https://www.linkedin.com/in/jack-karbowski-12489b216/"
+    },
+    {
+      "Full Name": "Mike Sullivan",
+      "Personal Bio": "Meet Mike, the ultimate creative force and master of clay. With a mischievous glint in his eye and a knack for turning mundane objects into masterpieces, Mike plans to use his skills and perspective to work towards building a future that is exciting, promising, and empathetic.",
+      "Project Title": "Creation Machine",
+      "Project Description": "Human creativity and expression are our most valuable resources. Artificial intelligence poses an existential threat to our creative humanity. It is essential that we do not undermine the value of non-artificial creations and fight to uphold our creativity and wonder \r\n\r\nCreation Machine is a space for facilitating expression and prompts users to bring a new creation into being. Users will have the opportunity to showcase their creations alongside all other users to add to an ever-changing collective work.\r\n",
+      "Youtube Video": "https://www.youtube.com/watch?v=a8u-Qs2oDiw",
+      "Email": "mikemakespots@gmail.com",
+      "Instagram": "mikemakespots",
+      "Website": "https://mikemakespots.com/",
+      "LinkedIn": "https://www.linkedin.com/in/mike-sullivan-155b64216/"
+    },
+    {
+      "Full Name": "Van Schuler"
     }
   ]
 }

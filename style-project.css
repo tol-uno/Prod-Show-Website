@@ -1,21 +1,38 @@
-section {
+body {
+    /* background-color: #181818; */
     background-color: white;
+    margin: 0;
 }
 
 navbar {
     position: fixed;
-    right: 3vw;
-    width: 60px;
-    height: 60px;
-    background-color: rgba(255, 255, 255, 0.15);
+    z-index: 10;
+    top: 2vh;
+    left: 50%;
+
+    /* fix for blur not working on safari. https://stackoverflow.com/questions/70138527/css-filter-blur-not-working-properly-on-safari */
+
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    background-color: rgba(211, 196, 255, 0.15);
     border-radius: 1vh;
-    border: solid 2px rgba(255, 255, 255, 0.08);
+    border: solid 1.5px rgba(255, 255, 255, 0.08);
     backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+
     box-shadow: 0 0 3vh rgba(0, 0, 0, 0.3);
+}
+
+navbar > a {
+    margin: 1vh 4vw 1vh 4vw; 
+    font-size: 5vw;
 }
 
 h1, h2, h3, h4, p, a{
     font-family: futura-pt, sans-serif;
+    /* color: white; */
+    color: black;
 }
 
 h1 {
@@ -28,6 +45,20 @@ p {
     font-weight: 300;
 }
 
+a {
+    font-size: 4vw;
+    font-weight: 700;
+    text-decoration: none;
+
+    color: white;
+    filter: drop-shadow(0 0 1vh rgba(0, 0, 0, 0.3));
+
+    white-space: nowrap;
+}
+
+#text-section {
+    padding: 15px;
+}
 
 #project-title {
     margin: 2vh 0 0 0;
@@ -41,7 +72,7 @@ p {
 }
 
 img {
-    margin-top: 2vh;
+    /* margin-bottom: 2vh; */
     color: gray;
     font-weight: 300;
     width: 100%;

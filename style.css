@@ -5,7 +5,7 @@ body {
     background-color: #181818;
 }
 
-h1, h2, h3, h4, h5, p {
+h1, h2, h3, h4, h5, p, tr {
     font-family: futura-pt, sans-serif;
     color: white;
     text-align: center;
@@ -25,7 +25,7 @@ h2 {
     text-align: left;
 }
 
-h3{
+h3, #maplink{
     margin: 1vh 0 1vh 0;
     font-size: 4.2vw;
     font-weight: 300;
@@ -43,7 +43,7 @@ h5 {
     font-weight: 300;
 }
 
-p {
+p, td {
     text-align: left;
     font-size: 4.2vw;
     font-weight: 300;
@@ -53,28 +53,42 @@ navbar {
     position: fixed;
     z-index: 10;
     top: 2vh;
-    left: 50%;
-
-    /* NEED a fix for blur not working on safari. https://stackoverflow.com/questions/70138527/css-filter-blur-not-working-properly-on-safari */
-
-    transform: translateX(-50%);
+        
     display: flex;
     align-items: center;
-    background-color: rgba(255, 255, 255, 0.15);
+
+    left: 50%;
+    transform: translateX(-50%);
+
+    background-color: rgba(211, 196, 255, 0.15);
     border-radius: 1vh;
-    border: solid 1.5px rgba(255, 255, 255, 0.08);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
+    border: solid 1.5px rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(9px);
+    -webkit-backdrop-filter: blur(9px);
 
     box-shadow: 0 0 3vh rgba(0, 0, 0, 0.3);
-
-
 }
 
 navbar > a {
     margin: 1vh 4vw 1vh 4vw; 
     font-size: 5vw;
 }
+
+#title-block {
+    position: absolute;
+    bottom: 6%;
+    margin: 0vh 26vw 0vh 26vw;
+    justify-content: center;
+}
+
+#title-block > h2 {
+    text-align: center;
+    font-size: 4.5vw;
+    font-weight: 300;
+
+    text-shadow: 0 0 2vw rgb(26, 26, 29);
+}
+
 
 a {
     font-family: futura-pt, sans-serif;
@@ -139,6 +153,19 @@ hr {
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.6) ;
 }
 
+#maplink {
+    text-decoration: underline;
+}
+
+table {
+    margin-top: 2vh;
+}
+
+td {
+    padding-right: 3vw;
+    line-height: 2vh;
+}
+
 img {
     color: gray;
     font-weight: 400;
@@ -156,6 +183,11 @@ img {
     text-align: left;
 }
 
+#eventbright-link {
+    font-size: 4.2vw;
+    font-weight: 500;
+    text-decoration: underline;
+}
 
 #show-info-img {
     margin: 4vh 0 5vh 0;
@@ -163,6 +195,7 @@ img {
 }
 
 section {
+    position: relative;
     padding: 2vh 3vw 2vh 3vw;
     /* background: linear-gradient(132deg, rgba(2,0,36,1) 0%, rgba(71,41,119,1) 100%);  */
     /* background-color: #05070f; */
@@ -202,7 +235,7 @@ section {
         font-size: 4vw;
     }
     
-    h3{
+    h3, #maplink{
         font-size: 2vw;
     }
     
@@ -214,8 +247,8 @@ section {
         font-size: 1.2vw;
     }
     
-    p {
-        font-size: 1.2vw;
+    p, td{
+        font-size: 1.3vw;
     }
 
     a {
@@ -228,6 +261,16 @@ section {
         white-space: nowrap;
     }
 
+    #title-block {
+        left: 50%;
+        transform: translateX(-50%);
+        margin: 0;
+    }
+
+    #title-block > h2 {
+        font-size: 2vw;
+    }
+
     .projects-grid {
         grid-template-columns: repeat(4, minmax(0, 1fr)); /* https://stackoverflow.com/questions/47601564/equal-width-columns-in-css-grid */
         gap: 5vh 2vw;
@@ -238,7 +281,7 @@ section {
 
     .info-container {
         flex-direction: row;
-        margin-bottom: 3vh;
+        margin-bottom: 8vh;
     }
 
     .homepage-links-container {
@@ -260,6 +303,14 @@ section {
         margin-left: 0vw;
         width: 100%;
         border-left: solid 3px white;
+    }
+
+    td {
+        line-height: 3vh;
+    }
+
+    #eventbright-link {
+        font-size: 1.3vw;
     }
 
     #show-info-img {
