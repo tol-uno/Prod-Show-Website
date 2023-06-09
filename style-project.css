@@ -48,10 +48,10 @@ p {
 a {
     font-size: 4vw;
     font-weight: 700;
-    text-decoration: none;
+    text-decoration: underline;
 
     color: white;
-    filter: drop-shadow(0 0 1vh rgba(0, 0, 0, 0.3));
+    /* filter: drop-shadow(0 0 1vh rgba(0, 0, 0, 0.3)); */
 
     white-space: nowrap;
 }

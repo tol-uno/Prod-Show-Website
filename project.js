@@ -51,6 +51,14 @@ async function renderProjectPage() {
         <img src="assets/images/${designerObject["Full Name"]}/image4.jpg" alt="image 4">
         <img src="assets/images/${designerObject["Full Name"]}/image5.jpg" alt="image 5">
         <img src="assets/images/${designerObject["Full Name"]}/image6.jpg" alt="image 6">
+        <img src="assets/images/${designerObject["Full Name"]}/image7.jpg" alt="image 7">
+        <img src="assets/images/${designerObject["Full Name"]}/image8.jpg" alt="image 8">
+        <img src="assets/images/${designerObject["Full Name"]}/image9.jpg" alt="image 9">
+        <img src="assets/images/${designerObject["Full Name"]}/image10.jpg" alt="image 10">
+        <img src="assets/images/${designerObject["Full Name"]}/image10.jpg" alt="image 11">
+        <img src="assets/images/${designerObject["Full Name"]}/image10.jpg" alt="image 12">
+
+
 
     `;
 
