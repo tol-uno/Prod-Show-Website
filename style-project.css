@@ -87,7 +87,6 @@ img {
 .bio-container {
     display: grid;
     grid-template-columns: 100%;
-    /* overflow: auto; */
 }
 
 #headshot {
@@ -116,10 +115,6 @@ img {
     margin-bottom: 4vh;
 }
 
-li {
-    
-}
-
 .social-link {
     display: block;
     color: black;
@@ -133,4 +128,100 @@ li {
 }
 
 @media only screen and (min-width: 600px) { /* was: (768px for Desktop Styling. 600 is tablet) */
+    section {
+        padding: 18vh 20vw 2vh 20vw;
+    }
+
+    navbar > a {
+        margin: 0.8vh 3vw 0.8vh 3vw; 
+        font-size: 1.8vw;
+    }
+
+    navbar {
+        border-radius: 1.2vh;
+        border: solid 2px rgba(255, 255, 255, 0.08);
+    }
+
+    #text-section {
+        margin-bottom: 10vh;
+    }
+
+    #project-title {
+        font-size: 5.2vw;
+        margin-bottom: 3vh;
+    }
+
+    #designer {
+        font-size: 2vw;
+        margin-bottom: 1vh;
+    }
+
+    p {
+        font-size: 1.3vw;
+    }
+
+    img {
+        margin-bottom: 4vh;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 70%;
+    }
+
+    #designer-bio {
+        margin-top: 0;
+        margin-bottom: 20vh;
+        padding-top: 8vh;
+    }
+    
+    .bio-container {
+        grid-template-columns: 25% 25% 25% 25%;
+        grid-template-rows: 50% 50%;
+    }
+
+    #headshot {
+        width: 100%;
+
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+    
+    #designer-name {
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 3vw;
+        text-align: left;
+
+        grid-column-start: 2;
+        grid-column-end: 5;
+        grid-row-start: 1;
+    }
+    
+    #personal-bio {
+        font-size: 1.4vw;
+        grid-column-start: 2;
+        grid-column-end: 5;
+    }
+    
+    #social-links-container {
+        margin-left: 0;
+        margin-right: 3vw;
+        padding-right: 1vw;
+
+        border-left: none;
+        border-right: solid 1.5px black;
+
+        text-align: right;
+
+        grid-column-start: 1;
+        grid-column-end: 5;
+    }
+    
+    .social-link {
+        font-size: 1.5vw;
+    }
+    
+
 }

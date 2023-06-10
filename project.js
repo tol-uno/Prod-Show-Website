@@ -1,7 +1,12 @@
 
 let designer = new URL(document.location).searchParams.get("designer");
 var titleLength = 0;
+var windowWidth = window.innerWidth ? window.innerWidth : $(window).width();
 
+// MOVE HERO IMAGE BELOW DESCRIPTION IF IN DESKTOP VIEW
+if (windowWidth > 768) {
+    document.querySelector("#text-section").after(document.querySelector("#hero-image"))
+}
 
 // PARSE JSON DATA. FUNCTION USED BY renderProjects()
 async function getJsonData() { // Taken from: https://www.javascripttutorial.net/javascript-fetch-api/
@@ -15,7 +20,6 @@ async function getJsonData() { // Taken from: https://www.javascripttutorial.net
 }
 
 
-
 // GET CORRECT DESIGNER JSON DATA. LOAD THEIR PROJECTS TEXT AND IMAGES
 async function renderProjectPage() {
     let jsonData = await getJsonData();
@@ -25,15 +29,17 @@ async function renderProjectPage() {
 
     // ADJUST SIZE OF TITLE TEXT TO FILL SPACE BUT NOT WRAP
     var titleLength = designerObject["Project Title"].length;
-    document.querySelector("#project-title").style.fontSize = getTitleSize(titleLength);
-    function getTitleSize(length) { 
-        let string = 180/length;
-        if (string > 16) {string = 16}
-        if (string < 11) {string = 11}
-        string = string + "vw";
-        return string;
-    }
     
+    if (windowWidth <= 768) { //IF IN MOBILE VIEW DYNAMICALLY SIZE TITLE FONT
+        document.querySelector("#project-title").style.fontSize = getTitleSize(titleLength);
+        function getTitleSize(length) { 
+            let string = 180/length;
+            if (string > 16) {string = 16}
+            if (string < 11) {string = 11}
+            string = string + "vw";
+            return string;
+        }
+    }    
 
     document.querySelector("#designer").innerHTML = `By ${designer}`;
     document.querySelector("#project-title").innerHTML = designerObject["Project Title"];
@@ -45,35 +51,21 @@ async function renderProjectPage() {
 
     var imageContainer = document.querySelector("#images-container");
 
-    function createImages() { // Loops through images and deletes ones that throw errors
+    function createImages() { // Loops through images, deletes ones that dont load.
         for (let i = 2; i <= 12; i++) {
+
             var img = document.createElement('img');
             img.src = `assets/images/${designerObject["Full Name"]}/image${i}.jpg`;
             imageContainer.appendChild(img);
 
             img.onerror = function() {
                 // image did not load
-                imageContainer.removeChild(imageContainer.lastElementChild)
+                imageContainer.removeChild(imageContainer.lastElementChild);
             }
         }
     }
 
     createImages();
-
-    // document.querySelector("#images-container").innerHTML = `
-    //     <img src="assets/images/${designerObject["Full Name"]}/image2.jpg" alt="image 2">
-    //     <img src="assets/images/${designerObject["Full Name"]}/image3.jpg" alt="image 3">
-    //     <img src="assets/images/${designerObject["Full Name"]}/image4.jpg" alt="image 4">
-    //     <img src="assets/images/${designerObject["Full Name"]}/image5.jpg" alt="image 5">
-    //     <img src="assets/images/${designerObject["Full Name"]}/image6.jpg" alt="image 6">
-    //     <img src="assets/images/${designerObject["Full Name"]}/image7.jpg" alt="image 7">
-    //     <img src="assets/images/${designerObject["Full Name"]}/image8.jpg" alt="image 8">
-    //     <img src="assets/images/${designerObject["Full Name"]}/image9.jpg" alt="image 9">
-    //     <img src="assets/images/${designerObject["Full Name"]}/image10.jpg" alt="image 10">
-    //     <img src="assets/images/${designerObject["Full Name"]}/image10.jpg" alt="image 11">
-    //     <img src="assets/images/${designerObject["Full Name"]}/image10.jpg" alt="image 12">
-    // `;
-
 
 
 
