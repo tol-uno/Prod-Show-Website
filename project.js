@@ -67,6 +67,11 @@ async function renderProjectPage() {
 
     createImages();
 
+    if (designerObject["Youtube Video"] != null) {
+        document.querySelector(".video").src = `${designerObject["Youtube Video"]}?modestbranding=1`;
+    } else {
+        document.querySelector(".video").remove();
+    }
 
 
     document.querySelector("#headshot").src = `assets/images/${designerObject["Full Name"]}/headshot.jpg`;
