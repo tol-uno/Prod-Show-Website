@@ -27,6 +27,8 @@ navbar {
 navbar > a {
     margin: 1vh 4vw 1vh 4vw; 
     font-size: 5vw;
+    filter: drop-shadow(0 0 1vh rgba(0, 0, 0, 0.3));
+
 }
 
 h1, h2, h3, h4, p, a{
@@ -51,7 +53,6 @@ a {
     text-decoration: underline;
 
     color: white;
-    /* filter: drop-shadow(0 0 1vh rgba(0, 0, 0, 0.3)); */
 
     white-space: nowrap;
 }
@@ -61,7 +62,7 @@ a {
 }
 
 #project-title {
-    margin: 2vh 0 0 0;
+    margin: 0 0 1vh 0;
     line-height: 1;
 }
 
@@ -77,11 +78,54 @@ img {
     font-weight: 300;
     width: 100%;
     vertical-align: middle; /* fixes the little extra line space thing */
+}
 
+#designer-bio {
+    margin-top: 5vh;
 }
 
 .bio-container {
-    display: flex;
+    display: grid;
+    grid-template-columns: 100%;
+    /* overflow: auto; */
+}
+
+#headshot {
+    position: relative;
+    transform: translateX(-50%);
+    left: 50%;
+    width: 70%;
+}
+
+#designer-name {
+    margin-left: 2vw;
+    font-size: 10vw;
+    text-align: center;
+}
+
+#personal-bio {
+    font-size: 4vw;
+    margin: 0 2vw 1vh 2vw;
+}
+
+#social-links-container {
+    list-style-type: none;
+    margin-left: 2vw;
+    border-left: solid 1.5px black;
+    padding-left: 3vw;
+    margin-bottom: 4vh;
+}
+
+li {
+    
+}
+
+.social-link {
+    display: block;
+    color: black;
+    font-size: 5vw;
+    font-weight: 300;
+    filter: drop-shadow(none);
 }
 
 
