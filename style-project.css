@@ -194,11 +194,12 @@ img {
     
     .bio-container {
         grid-template-columns: 25% 25% 25% 25%;
-        grid-template-rows: 50% 50%;
+        grid-template-rows: min-content min-content;
     }
 
     #headshot {
         width: 100%;
+        margin: 0;
 
         grid-column-start: 1;
         grid-column-end: 2;
@@ -221,6 +222,7 @@ img {
         font-size: 1.4vw;
         grid-column-start: 2;
         grid-column-end: 5;
+        grid-row-start: 2;
     }
     
     #social-links-container {
